@@ -11,11 +11,6 @@ function Impar_par(array)
     console.log(evenNumeros)
 }
 
-
-
-
-
-
 var numeros = [0,1,2,3,4,5,6,7,8,9]
 
 Impar_par(numeros)
