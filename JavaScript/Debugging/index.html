@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de erros</title>
+</head>
+
+<body>
+    <div>
+        <h1>Objetivos</h1>
+        <ul>
+            <li>Apresentar o objeto Error do ECMAScript</li>
+            <li>Apresentar a DOMException</li>
+        </ul>
+    </div>
+
+    <div id="Conteudo">
+        <div id="ECMAScript">
+            <p>
+                Erros que ocorrem em tempo de execução. <br><br>
+            <ul>
+                <h3>Composto por:</h3>
+                <li>Mensagem</li>
+                <li>Nome</li>
+                <li>Linha</li>
+                <li>Call Stack</li>
+            </ul>
+            </p>
+        </div>
+
+        <div id="DOMException">
+            <p>
+                Erros relacionados ao Documento Object Model (DOM).
+            </p>
+        </div>
+
+        <div id="argumentos">
+            <h2>Throw</h2>
+            <p>
+                O Throw é usado quando desejamos tratar um erro que é esperado. <br>
+                Ele Retorna o erro em formato de erro pelo console passando as informações que foram espeçificadas em seu tratamento.
+            </p>
+
+            <h2>Try...catch</h2>
+            <p>
+                O try/catch consistem em dois blocos, o primeiro(try) ira rodar o script, se ouver erro ele ira passar para o segundo bloco(catch), neste devemos encontra a mensagem de erro que ira reporta como console ou usando o throw(preferencia).
+            </p>
+
+            <h2>Finally</h2>
+            <p>
+                É uma função que sera chamada se tiver ou não um erro, ele é usando junto com o try/catch/finally logo no final. <br>
+                Mesmo tendo erro ou não ele sera executado.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
