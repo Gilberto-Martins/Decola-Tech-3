@@ -30,7 +30,7 @@ export default function App() {
         
         <Text accessibilityLabel='Nome: Gilberto Martins' style={[styles.texto, styles.name]}>Gilberto Martins </Text>
         <Text accessibilityLabel='NickName: gilbertomartins' style={[styles.texto, styles.nickname]}>gilbertomatins</Text>
-        <Text accessibilityLabel='Descrição: Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.' style={[styles.texto, styles.descricao]}>Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.</Text>
+        <Text accessibilityLabel='Descrição: Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.' style={[styles.texto, styles.descricao]}>Concluindo bacharelado em ciências da computação. Alguns dos meus hobbies são Games, Ficção e adquirir cada vez mais conhecimento por desenvolvimento Mobile. Sou autodidata e gosto de desafios.</Text>
 
         <View style={styles.Dio}>
           <View style={styles.caixinhas}></View>{/**1 */}
@@ -160,8 +160,9 @@ const styles = StyleSheet.create({
   },
   descricao: {
     fontWeight: 'bold',// negrito
-    fontSize: 17,
+    fontSize: 15,
     color: '#696969',
+    textAlign:'center'
   },
   button: {
     backgroundColor: '#494c4e',
