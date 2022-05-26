@@ -176,7 +176,6 @@ const styles = StyleSheet.create({
     marginTop: 30 ,
     width: 250,
     height: 115,
-    borderColor: "#474a51",
     flexDirection: 'row' ,
     flexWrap: "wrap",
     justifyContent: "center"
