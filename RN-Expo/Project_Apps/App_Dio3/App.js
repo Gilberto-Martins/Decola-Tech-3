@@ -25,10 +25,94 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
         <StatusBar style='inverted' backgroundColor={colorFundoGit} />
-        <Image source={{ uri: imagenGitHub }} style={styles.imgGitHub} />
+
+        <Image accessibilityLabel=' Imagem de Gilberto Martins' source={{ uri: imagenGitHub }} style={styles.imgGitHub} />
+        
         <Text accessibilityLabel='Nome: Gilberto Martins' style={[styles.texto, styles.name]}>Gilberto Martins </Text>
         <Text accessibilityLabel='NickName: gilbertomartins' style={[styles.texto, styles.nickname]}>gilbertomatins</Text>
         <Text accessibilityLabel='Descrição: Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.' style={[styles.texto, styles.descricao]}>Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.</Text>
+
+        <View style={styles.Dio}>
+          <View style={styles.caixinhas}></View>{/**1 */}
+          <View style={styles.caixinhas}></View>{/**2 */}
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>{/**13 */}
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>{/**15 Verde escuro */}
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={[styles.caixinhas, styles.caixaDio]}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          <View style={styles.caixinhas}></View>
+          
+        </View>
 
         <Pressable onPress={() => urlGitHub()}>
           <View>
@@ -86,5 +170,24 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 15,
     marginTop: 25,
+  },
+  Dio:{
+    marginTop: 30 ,
+    width: 250,
+    height: 115,
+    borderColor: "#474a51",
+    flexDirection: 'row' ,
+    flexWrap: "wrap",
+    justifyContent: "center"
+  },
+  caixinhas:{
+    margin: 3,
+    backgroundColor: "#179a29",
+    width: 13,
+    height: 13,
+    borderRadius: 4,
+  },
+  caixaDio:{
+    backgroundColor: "#90ee90"
   }
 });
