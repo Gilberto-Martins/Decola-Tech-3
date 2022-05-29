@@ -24,11 +24,11 @@ button {
     text-align: center;
 }
 
-#counter {
+#impa-par {
     display: flex;
 }
 
-#currentNumber {
+#resposta {
     display: flex;
     align-items: center;
     margin: 0 20px;

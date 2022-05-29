@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Mult1",
+    "slug": "Mult1",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

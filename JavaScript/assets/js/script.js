@@ -23,9 +23,13 @@ function subtrair()
 
 function adicionar() 
 {
-
-    contador++
-
+    if(contador >= 10){
+        contador = 10    
+    }
+    else{
+        contador++
+    }
+    
     if (contador % 2 === 0) {
         imp_par.innerHTML = "O valor: " + contador + " é Par"
     }
